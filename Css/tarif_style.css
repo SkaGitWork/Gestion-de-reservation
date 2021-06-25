@@ -1,0 +1,188 @@
+@font-face {
+  font-family: 'cairoregular';
+  src: url('../Fonts/cairo-regular-webfont.woff2') format('woff2'),
+       url('../Fonts/cairo-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background-color: rgba(154, 177, 219, 0.548);
+  margin: 0;
+}
+
+a{
+  text-decoration:none;
+}
+
+h2{
+  text-align: center;
+}
+
+/* --------------------------------- header --------------------------------- */
+
+/* ---------------------------------- Logo ---------------------------------- */
+
+#all_logo{
+  display: flex;
+  position: absolute;
+  top: 5px;
+  left: 10%;
+}
+
+#all_logo h1{
+  padding-left: 5px;
+  font-family: 'cairoregular';
+}
+
+#logo {
+  height: 75px ;
+}
+
+h1{
+  text-align: center;
+}
+
+#redirection{
+  position: absolute;
+  right: 10%;
+  top: 3%;
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+
+.button {
+  color: white;
+  background-color: #0074CB;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+
+/* ---------------------------------- Liste --------------------------------- */
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+
+li{
+  margin-left: 10px;
+  width: 15%;
+  background-color: #0074CB;
+  border-radius: 20px;
+  padding: 7px;
+  font-size: 18px;
+}
+
+li a{
+  color: white;
+}
+
+/* -------------------------------- Add form -------------------------------- */
+#add_form{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: auto;
+  width: 50%;
+  align-items: center;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+#add_form input{
+  border-radius: 5px;
+  border: 2px solid #0074CB ;
+}
+
+#add_form button{
+  margin-left: 10px;
+  border: 0;
+  border-radius: 15px;
+  background-color: #0074CB;
+  color: white;
+  font-size: 14px;
+  padding: 7px;
+  margin: 0;
+}
+
+/* ---------------------------------- 2forms --------------------------------- */
+
+#forms{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---------------------------------- Display datebase Form ---------------------------------- */
+
+
+
+form{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+table{
+  margin: auto;
+  border-collapse: collapse;
+  margin-top: 5%;
+}
+
+td, th{
+  border: 1px solid #0074CB;
+  padding: 10px;
+}
+
+#display_form button{
+  margin: auto;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 15px;
+  background-color: #0074CB;
+  color: white;
+  font-size: 15px;
+  padding: 6px;
+}
+/* ------------------------------- Modify_form ------------------------------ */
+
+#modify_form{
+  width: 13%;
+  background-color: rgb(241, 241, 241);
+  flex-direction: column;
+  margin-left: 10%;
+  border-radius: 10px;
+  padding: 1.5%;
+  box-shadow: 5px 5px 5px rgb(139, 139, 139);
+}
+
+#modify_form *{
+  margin-top: 5px;
+}
+
+#modify_form input{
+  border-radius: 5px;
+  border: 2px solid #0074CB;
+}
+
+
+#modify_form button{ 
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #0074CB;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+}

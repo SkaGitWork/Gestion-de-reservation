@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "cairoregular";
+  src: url("../Fonts/cairo-regular-webfont.woff2") format("woff2"),
+    url("../Fonts/cairo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* --------------------------------- Global --------------------------------- */
+
+body {
+  font-family: "kohoregular";
+  background-image: url(../image/image_bg.png);
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* --------------------------------- Header --------------------------------- */
+
+header {
+  margin: auto;
+  width: 60%;
+}
+
+#title {
+  display: inline;
+  font-family: "cairoregular";
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+#logo {
+  height: 75px;
+  /* position: relative;
+    left: 10%; */
+}
+
+#buttons a{
+  width: 95px;
+  position: absolute;
+  top: 3em;
+  right: 6em;
+  text-align: center;
+  padding: 9px;
+  border-radius: 20px;
+  background-color: #0074CB;
+  color: white;
+}
+
+/* ---------------------------------- Main ---------------------------------- */
+
+section {
+  display: grid;
+  grid-template-columns: 15% 30% 1fr 30% 15%;
+  grid-row-gap: 20px;
+}
+
+section hr {
+  grid-row: 1/3;
+  grid-column: 3/4;
+}
+
+#a1 {
+  grid-column: 2/3;
+}
+
+#a2 {
+  grid-column: 4/5;
+}
+
+/* ---------------------------------- Menu ---------------------------------- */
+
+.menu {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
+}
+
+.menu a {
+  width: 45%;
+  background-color: #0074cb;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.menu hr {
+  height: 100px;
+}
+
+/* ---------------------------- Display grid Form --------------------------- */
+
+#client-connection {
+  display: none;
+  grid-column: 2/3;
+  grid-row: 2;
+}
+
+#client-sign-up {
+  display: none;
+  grid-column: 4/5;
+  grid-row: 2;
+}
+
+/* ---------------------------------- Form ---------------------------------- */
+
+form {
+  width: 80%;
+  background-color: white;
+  padding: 20px 40px 25px 23px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+form button {
+  color: white;
+  border: 1px solid #0074cb;
+  background-color: #2577b6;
+  font-size: 1.4em;
+  display: block;
+  margin: auto;
+  height: 40px;
+  font-family: "Helvetica";
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+form input:focus {
+  outline: none !important;
+  border: 1px solid #0074cb;
+  box-shadow: 0 0 5px #719ece;
+}
+
+form input:focus::-webkit-input-placeholder  {
+  opacity: 0.5;
+}
+
+
+form input {
+  display: block;
+  border-radius: 8px;
+  margin: 1em 0 1em 0;
+  width: 100%;
+  height: 25px;
+  border: 1px solid #646161;
+  padding: 8px;
+}
+
+form span{
+  color: red;
+  text-align: center;
+  border: none;
+  display: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

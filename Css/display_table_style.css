@@ -1,0 +1,120 @@
+@import url("../Fonts/font.css");
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-image: url(../image/image_bg.png);
+  background-size: cover;
+}
+
+.Error_msg{
+  text-align: center;
+  color: red;
+  margin-top: 1em;
+  font-size: 2em;
+}
+
+/* --------------------------------- Header --------------------------------- */
+
+header {
+  padding-top: .7em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 85%;
+}
+
+#title{
+  position: relative;
+  color: black;
+  font-size: 2em;
+  font-family: "pattayaregular";
+  letter-spacing: 1px;
+  bottom: 8px;
+  margin-left: 3px;
+  font-weight: bold;
+}
+
+.button-style {
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:10px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:7px 14px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.button-style:hover {
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+.button-style:active {
+	position:relative;
+	top:1px;
+}
+
+#logo {
+  width: auto;
+  height: 50px;
+}
+
+#info {
+  background-color: #2f4858;
+  color: white;
+  height: 2em;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "kohoregular";
+}
+
+/* ---------------------------------- Table --------------------------------- */
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 85%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+}
+
+th {
+  background-color: #374955;
+  color: #ffffff;
+}
+
+td,
+th {
+  padding: 12px 15px;
+}
+
+tr:last-of-type {
+  border-bottom: 3px solid #374955;
+}
+
+tr:nth-of-type(even) {
+  background-color: rgb(221, 221, 221);
+}
+
+tr:hover {
+  font-weight: bold;
+  color: #005a34;
+}

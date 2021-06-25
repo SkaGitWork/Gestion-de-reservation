@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'girassolregular';
+    src: url('girassol-regular-webfont.woff2') format('woff2'),
+         url('girassol-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'goblin_oneregular';
+    src: url('goblinone-regular-webfont.woff2') format('woff2'),
+         url('goblinone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'kohoregular';
+    src: url('koho-regular-webfont.woff2') format('woff2'),
+         url('koho-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'pattayaregular';
+    src: url('pattaya-regular-webfont.woff2') format('woff2'),
+         url('pattaya-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cairoregular';
+    src: url('cairo-regular-webfont.woff2') format('woff2'),
+         url('cairo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'avenir';
+    src: url('AvenirLTStd-Book.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }

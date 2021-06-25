@@ -1,0 +1,90 @@
+@import url('../Fonts/font.css');
+
+/* --------------------------------- Global --------------------------------- */
+
+body {
+  font-family: "Helvetica";
+  background-image: url(../image/image_bg.png);
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1, h2 {
+  font-family: "girassolregular";
+  text-align: center;
+}
+
+/* --------------------------------- Header --------------------------------- */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#title {
+  display: inline-block;
+  font-family: "cairoregular";
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+#logo {
+  height: 70px;
+}
+
+#buttons{
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background-color: #0074CB;
+  color: white;
+}
+
+header h1{
+  margin: 0;
+}
+
+/* ---------------------------------- Form ---------------------------------- */
+
+form{
+  width: 15%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+form *{
+  margin: auto;
+  display: block;
+  margin-top: 1em;
+}
+
+form button {
+  color: white;
+  border: 1px solid #0074cb;
+  background-color: #2577b6;
+  font-size: 1.4em;
+  font-family: "Helvetica";
+  border-radius: 10px;
+  padding: .5em;
+}
+
+form input {
+  border-radius: 8px;
+  border: 1px solid #646161;
+  padding : .5em;
+}
+
+form input:focus {
+  outline: none !important;
+  border: 1px solid #0074cb;
+  box-shadow: 0 0 5px #719ece;
+}

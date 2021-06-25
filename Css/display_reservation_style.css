@@ -1,0 +1,115 @@
+@import url("../Fonts/font.css");
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-image: url(../image/image_bg.png);
+  z-index: -1;
+  position: relative;
+}
+
+hr{
+  border-top: 1px solid black;
+}
+
+h3{
+  margin: 0;
+}
+
+/* --------------------------------- header --------------------------------- */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  
+}
+
+header span {
+  position: relative;
+  color: black;
+  font-size: 30px;
+  font-family: "kohoregular";
+  bottom: 10px;
+  margin-left: 3px;
+  font-weight: bold;
+}
+
+header a {
+  padding-top: 10px;
+}
+/* ---------------------------------- Logo ---------------------------------- */
+#logo {
+  width: auto;
+  height: 50px;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#buttons a {
+  width: 95px;
+  text-align: center;
+  padding: 9px;
+  border-radius: 20px;
+  background-color: #0074cb;
+  color: white;
+}
+
+#info {
+  height: auto;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'cairoregular';
+}
+
+#info h3 {
+  font-weight: normal;
+}
+
+/* ---------------------------------- Table --------------------------------- */
+
+table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 83%;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+th {
+  background-color: #374955;
+  color: #ffffff;
+}
+
+td,
+th {
+  padding: 10px 13px;
+}
+
+tr:last-of-type {
+  border-bottom: 3px solid #374955;
+}
+
+tr:nth-of-type(even) {
+  background-color: rgb(221, 221, 221);
+}
+
+tr:hover {
+  font-weight: bold;
+  color: #005a34;
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\Leaning ressources\\Web html css\\tp_final"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Gestion_de_reservation"
+	}
+}

@@ -1,0 +1,296 @@
+@import url('../Fonts/font.css');
+
+body{
+    margin: 0;
+}
+
+*{
+    font-family: "kohoregular";
+    font-size: 1.1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button-style{
+    color: white;
+    background-color: #0074CB;
+    border: 0;
+    padding: 7px 14px ;
+    border-radius: 15px;
+}
+
+/* --------------------------------- header --------------------------------- */
+
+
+#my_header{
+    padding-top: 0.5em;
+    background-color: white;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    background-color: black;
+    background-color: #fff;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+
+#title{
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: "pattayaregular";
+    letter-spacing: 1px;
+    bottom: 8px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+#logo {
+    width: auto;
+    height:50px;
+}
+
+/* --------------------------------- banner --------------------------------- */
+
+/* Slideshow container */
+.slideshow-container {
+    border-top: 1px solid #838383;
+    overflow: hidden;
+    height: 640px;
+}
+
+.mySlides img{
+    height: 650px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  margin: 3em;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #ffffff;
+  font-size: 3em;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  width: 100%;
+  font-family: "cairoregular";
+}
+
+.mySlides:nth-child(3) .text{
+    color: #000;
+}
+
+#dots_position{
+    position: absolute;
+    bottom: 4.2em;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* ------------------------------ Command panel ----------------------------- */
+
+#command-panel{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    margin: auto;
+    width: 70%;
+    height: 200px;
+    background-color: #fcfcfc; 
+}
+
+/* -------------------- Iténéraire-Réserver-Horaire-train Buttons ------------------- */
+
+#command-buttons ul{
+    display: flex;
+    list-style: none;
+}
+
+#command-buttons ul li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+#command-buttons img{
+    width: auto;
+    height: 40px;
+}
+
+
+#command-buttons a{
+    color: #0074CB;
+    filter: grayscale(100%);
+}
+
+.icon-text{
+    padding-left: 10px;
+}
+
+/* ------------------------------ Command Menu ------------------------------ */
+
+#command-menu{
+    margin: 20px;
+}
+
+#command-menu p{
+    opacity: 0.75;
+}
+
+#command-menu div *{
+    margin: 10px;
+}
+
+#command-menu-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#command-menu-1 img, select{
+    height: 40px;
+}
+
+#command-menu-1 select{
+    height: 20px;
+}
+
+#command-menu-2{
+    display: none;
+    align-items: center;
+}
+
+#command-menu-2 *{
+    margin: 20px;
+}
+
+#command-menu-3{
+    display: none;
+    align-items: center;
+}
+
+#command-menu-3 a{
+    text-decoration: none;
+    color: white;
+    background-color: #0074CB;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#command-menu-4{
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#command-menu-4 a{
+    text-decoration: none;
+    color: white;
+    background-color: #0074CB;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* --------------------------------- Footer --------------------------------- */
+
+footer{
+    background-color: rgb(0, 0, 0, 0.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer table{
+    width: 80%;
+    margin: auto;
+    /* border-spacing: 20px; */
+}
+
+footer tr, td{
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}

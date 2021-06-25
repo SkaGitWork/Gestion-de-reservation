@@ -1,0 +1,104 @@
+@import url("../Fonts/font.css");
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-image: url(../image/image_bg.png);
+  background-size: cover;
+}
+
+#container{
+  /* background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+position: relative;
+z-index: 0; */
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  
+}
+
+header span {
+  position: relative;
+  color: black;
+  font-size: 30px;
+  font-family: "kohoregular";
+  bottom: 10px;
+  margin-left: 3px;
+  font-weight: bold;
+}
+
+header a {
+  padding-top: 10px;
+}
+
+#logo {
+  width: auto;
+  height: 50px;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#buttons a {
+  width: 95px;
+  text-align: center;
+  padding: 9px;
+  border-radius: 20px;
+  background-color: #0074cb;
+  color: white;
+}
+
+#info {
+  height: auto;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'goblin_oneregular';
+}
+
+#info p {
+  margin: 0;
+  font-weight: normal;
+}
+
+#page {
+  background-size: cover;
+  height: 100%;
+}
+
+#main_form {
+  margin: auto;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+#main_form * {
+  margin-bottom: 1em;
+}
+
+#main_form button,
+#main_form a {
+  margin: auto;
+  width: 95px;
+  text-align: center;
+  padding: 9px;
+  border-radius: 20px;
+  background-color: #0074cb;
+  border: 0;
+  font-size: medium;
+  color: white;
+}

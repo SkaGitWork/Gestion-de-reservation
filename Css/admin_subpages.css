@@ -1,0 +1,154 @@
+@import url("../Fonts/font.css");
+
+body {
+  background-image: url(../image/image_bg.png);
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+label{
+  font-family: "kohoregular";
+  font-size: 1.3em;
+}
+
+.button_style {
+  margin-left: 10px;
+  border: 0;
+  border-radius: 15px;
+  background-color: #0074cb;
+  color: white;
+  font-size: 17px;
+  padding: 7px 10px;
+}
+
+/* --------------------------------- header --------------------------------- */
+
+header {
+  display: grid;
+  grid-template-columns: 20% 40% 20%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+  font-family: "kohoregular";
+}
+
+#title {
+  display: inline-block;
+  font-family: "cairoregular";
+  position: relative;
+  font-size: 2em;
+  bottom: 10px;
+}
+
+#logo {
+  height: 60px;
+}
+/* ---------------------------------- Forms --------------------------------- */
+
+/* Align center */
+form {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+/* Add form */
+#add_form {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#add_form input {
+  border-radius: 5px;
+  border: 2px solid #0074cb;
+  width: 100px;
+  height: 1.5em;
+  margin: 0 10px 0 10px;
+}
+
+/* Flex add and modify form */
+#forms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modify form */
+#modify_form {
+  width: 13%;
+  background-color: rgb(209, 209, 209);
+  box-shadow: 5px 5px 5px rgb(139, 139, 139);
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 1.5%;
+  margin-left: 3em;
+}
+
+#modify_form * {
+  margin-top: 5px;
+}
+
+#modify_form input {
+  border-radius: 5px;
+  border: 2px solid #0074cb;
+}
+
+#modify_form button {
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* ---------------------------------- Table --------------------------------- */
+
+table {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+  border-collapse: collapse;
+  text-align: center;
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+th {
+  background-color: #0074cb;
+  color: #ffffff;
+}
+
+td,
+th {
+  padding: 12px 15px;
+}
+
+tr:last-of-type {
+  border-bottom: 3px solid #0074cb;
+}
+
+tr:nth-of-type(even) {
+  background-color: rgb(221, 221, 221);
+}
+
+tr:hover {
+  font-weight: bold;
+  color: #00599c;
+}
